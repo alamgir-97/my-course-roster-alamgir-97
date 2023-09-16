@@ -1,0 +1,65 @@
+[
+    {
+        "img": "https://ibb.co/54YnLF7",
+        "course-name": "Introduction to Computer Science",
+        "details": "This course provides an introduction to computer science and programming concepts. Topics include algorithms, data structures, programming languages, software engineering, and more.",
+        "price": "49.99",
+        "credit": "3"
+    },
+    {
+        "img": "https://ibb.co/bKjgKzc",
+        "course-name": "Introduction to Data Science",
+        "details": "This course provides an introduction to data science and machine learning concepts. Topics include data analysis, visualization, regression, classification, clustering, and more.",
+        "price": "59.99",
+        "credit": "4"
+    },
+    {
+        "img": "https://ibb.co/1mp4th9",
+        "course-name": "Introduction to Web Development",
+        "details": "This course provides an introduction to web development concepts. Topics include HTML, CSS, JavaScript, jQuery, Bootstrap, Node.js, and more.",
+        "price": "39.99",
+        "credit": "2"
+    },
+    {
+        "img": "https://ibb.co/hCyv4nr",
+        "course-name": "Introduction to Mobile App Development",
+        "details": "This course provides an introduction to mobile app development concepts. Topics include Android Studio, Java programming language, XML layout design, and more.",
+        "price": "69.99",
+        "credit": "5"
+    },
+    {
+        "img": "https://ibb.co/YdT1mBt",
+        "course-name": "Introduction to Cloud Computing",
+        "details": "This course provides an introduction to cloud computing concepts. Topics include Amazon Web Services (AWS), Microsoft Azure, Google Cloud Platform (GCP), and more.",
+        "price": "79.99",
+        "credit": "6"
+    },
+    {
+        "img": "https://ibb.co/Qd2QdjY",
+        "course-name": "Introduction to Cybersecurity",
+        "details": "This course provides an introduction to cybersecurity concepts. Topics include network security, cryptography, ethical hacking, digital forensics, and more.",
+        "price": "89.99",
+        "credit": "7"
+    },
+    {
+        "img": "https://ibb.co/pKqKbdz",
+        "course-name": "Introduction to Artificial Intelligence",
+        "details": "This course provides an introduction to artificial intelligence concepts. Topics include machine learning algorithms, neural networks, deep learning frameworks (TensorFlow and PyTorch), and more.",
+        "price": "99.99",
+        "credit": "8"
+    },
+    {
+        "img": "https://ibb.co/8KngD3m",
+        "course-name": "Introduction to Blockchain Technology",
+        "details": "This course provides an introduction to blockchain technology concepts. Topics include Bitcoin mining process, Ethereum smart contracts development, Hyperledger Fabric architecture design, and more.",
+        "price": "109.99",
+        "credit": "9"
+    },
+    {
+        "img": "https://ibb.co/PCzKXsb",
+        "course-name":"Introduction to Quantum Computing",
+        "details":"This course provides an introduction to quantum computing concepts. Topics include quantum gates and circuits design using Qiskit framework (IBM Quantum Experience), quantum error correction codes implementation using stabilizer formalism (CSS codes), quantum key distribution protocols (BB84), and more.",
+        "price":"119.99",
+        "credit":"10"
+    }
+]
