@@ -16,14 +16,14 @@ import './App.css'
    
 
     const [selectedCourses, setSelectedCourses] = useState([]);
-    //, coursePrice, credit, remainingCredit
+    
     const handleSelectBtn = (course ) => { 
       let coursePrice = course.price;
-      let credit = course.credit;
+      console.log(coursePrice)
+       let credit = course.credit;
       // let remainingCredit = 20;            
       
       const isExist = selectedCourses.find(item => item.course_name == course.course_name);
-      //console.log(isExist);
       if(isExist){
         return alert("already selected")
         }
@@ -31,8 +31,8 @@ import './App.css'
       selectedCourses.forEach(item =>{
         coursePrice = parseFloat(coursePrice) + parseFloat(item.price);
     console.log(coursePrice)        
-        credit = parseFloat(credit) + parseFloat(item.credit);
-    console.log("Credit:" + credit)
+         credit = parseFloat(credit) + parseFloat(item.credit);
+    // console.log("Credit:" + credit)
     //     remainingCredit = parseFloat(remainingCredit)-parseFloat(credit);
     // console.log(remainingCredit);
         // if(remainingCredit<0){
@@ -62,7 +62,7 @@ import './App.css'
 
       <div className='grid gap-6'>
        
-       <Cart selectedCourses={selectedCourses}  > </Cart>
+       <Cart selectedCourses={selectedCourses} > </Cart>
       </div>
       </div> 
 
