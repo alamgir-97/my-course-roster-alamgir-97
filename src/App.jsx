@@ -1,13 +1,26 @@
-// import { useState, useEffect } from 'react'
+import Course from './components/courses/course'
 import './App.css'
 
 function App() {
-  // const [count, setCount] = useState(0)
+  
 
   return (
-    <>      
-      <h1 className="text-3xl text-center font-extrabold bg-base-200 py-8">Course Registration</h1>      
-    </>
+    <div className='bg-gray-400 '>      
+      <h1 className="text-3xl text-center font-extrabold  py-8">Course Registration</h1>
+
+      <div class='flex'>        
+      <div className='grid grid-cols-3 gap-6'> 
+        <Course></Course>   
+        <Course></Course>   
+        <Course></Course>  
+      </div>      
+
+      <div className='grid gap-6'>
+        <Course></Course> 
+      </div>
+      </div> 
+
+    </div>
   )
 }
 
