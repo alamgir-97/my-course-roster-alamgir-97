@@ -1,22 +1,25 @@
 import React from 'react';
 
-const Cart = () => {
+const Cart = ({selectedCourses, remainingCredit, coursePrice, credit}) => {
+    // console.log(selectedCourses);    
+
     return (
         <div className='bg-white rounded-3xl w-80'>
             <div className='bg-white m-6'>
+            <h2 className='text-lg font-semibold py-3'>Credit Hour Remaining {remainingCredit} hr</h2>
+            <hr></hr>
             
-            <h2 className='text-lg font-semibold py-3'>Credit Hour Remaining 7 hr</h2>
+            <h2 className='text-lg font-semibold py-3'>Course Name:</h2>
+            
+                {selectedCourses.map(item =>(<ol><li>{item.course_name}</li></ol>))
+                
+                }
+               
+            
             <hr></hr>
-            <h2 className='text-lg font-semibold py-3'>Course Name</h2>
-            <ol>
-                <li>Introduction to C Programming</li>
-                <li>Introduction to C Programming</li>
-                <li>Introduction to C Programming</li>
-            </ol>
+            <h3>Total Credit Hour:{credit}</h3>
             <hr></hr>
-            <h3>Total Credit Hour: 7</h3>
-            <hr></hr>
-            <h2>Total Price: 48000 USD</h2>            
+            <h2>Total Price: {coursePrice} USD</h2>            
            
             </div>
         </div>
